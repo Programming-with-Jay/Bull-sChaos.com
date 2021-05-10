@@ -1,0 +1,100 @@
+ul {
+ 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  
+  ul li a:hover {
+    border-bottom: 3px solid black;
+  }
+  
+  .header {
+    padding: 20px;
+    height: 100vh;
+    position: relative;
+  }
+  .header h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .header .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+  .flex1 {
+
+    color: white;
+    padding: 100px 150px 20px 100px;
+    position: left;
+    background: linear-gradient(to bottom, #16A085,#27AE60 , #58D68D );
+  }
+  
+  .flex1 h1 {
+    font-size: 325%;
+    text-align: left;
+  }
+  .flex1 p {
+    font-weight: 400%;
+    font-family: serif;
+    font-size: 150%;
+    text-align: left;
+  }
+  .flex1 img{
+      transform: translate(1000px,-200px);
+  }
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    margin-top:16px;
+  }
+  .flex2 {
+    color: white;
+    padding: 100px 150px 120px 100px;
+    position: right;
+    background: linear-gradient(to bottom, #273746, #717D7E );
+  }
+  
+  .flex2 h1 {
+    font-size: 325%;
+    text-align: right;
+  }
+  .flex2 p {
+    font-weight: 400%;
+    font-family: Verdana;
+    font-size: 130%;
+    text-align: right;
+  }
